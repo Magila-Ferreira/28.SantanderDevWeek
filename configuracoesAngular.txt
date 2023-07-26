@@ -1,8 +1,10 @@
 // Criação do projeto Ângular:
 ----- ng new <nomeDoProjeto>
 
-// Rodar a aplicação no terminal
+// Rodar a aplicação no terminal [criando um servidor do aplicativo]
 ----- ng serve
+ou
+----- ng s -o
 
 // Caso apresente erro, atualizar npm e ng:
 ----- npm install
