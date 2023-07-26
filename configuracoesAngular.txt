@@ -10,3 +10,8 @@
 ----- npm update
 
 ----- ng serve
+
+// Criar um componente ângular [home] dentro da pasta existente pages:
+----- ng generate componentes pages/home
+ou
+----- ng g c pages/home
