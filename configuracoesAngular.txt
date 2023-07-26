@@ -1,0 +1,7 @@
+// Criação do projeto Ângular:
+----- ng new <nomeDoProjeto>
+
+// Rodar a aplicação no terminal
+----- ng serve
+
+//

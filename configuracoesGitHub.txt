@@ -1,0 +1,21 @@
+// Configurações Git Hub: https://youtu.be/H0SQAW9tmmE
+
+1. Criação de um repositório local:
+  CMD - git init
+  ou
+  VScode - clicar em Initialize Repository
+
+2. Preparar alterações no repositório local:
+  VScode - clicar em Adicionar alterações [CHANGES] +
+
+3. Subir as alterações no repositório local:
+  VScode - digitar a mensagem de alteração na caixa de confirmação e confirmá-la
+
+4. Criar um repositório vazio no GitHub [repositório remoto]
+
+5. Configuração do repositório remoto [Git] no repositório local
+  CMD - git remote add origin <endereçoDoRepositórioRemoto>
+
+6. Subir o repositório local para o repositório Git
+  CMD - git push -u origin master/main
+  VScode - menu de controle do código fonte -> clicar em push to
