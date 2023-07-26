@@ -7,11 +7,21 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
+import { HeaderComponent } from './components/header/header.component';
+import { CardBoxComponent } from './components/card-box/card-box.component';
+import { CarrosselItemsComponent } from './components/carrossel-items/carrossel-items.component';
+import { CarouselItemsComponent } from './components/carousel-items/carousel-items.component';
+import { AmountBoxComponent } from './components/amount-box/amount-box.component';
 
 @NgModule({
 	declarations: [
 		AppComponent,
   HomeComponent,
+  HeaderComponent,
+  CardBoxComponent,
+  CarrosselItemsComponent,
+  CarouselItemsComponent,
+  AmountBoxComponent,
 	],
 	imports: [
 		BrowserModule,
