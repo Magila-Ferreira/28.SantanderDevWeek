@@ -4,4 +4,9 @@
 // Rodar a aplicação no terminal
 ----- ng serve
 
-//
+// Caso apresente erro, atualizar npm e ng:
+----- npm install
+----- ng update
+----- npm update
+
+----- ng serve
