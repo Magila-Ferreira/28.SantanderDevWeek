@@ -1,0 +1,8 @@
+{
+    "editor.wordWrap": "on",
+    "editor.wrappingIndent": "indent",
+    "html.format.preserveNewLines": false,
+    "css.format.preserveNewLines": false,
+    "less.format.preserveNewLines": false,
+    "scss.format.preserveNewLines": false
+}
