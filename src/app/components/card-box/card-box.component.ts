@@ -34,7 +34,11 @@ export class CardBoxComponent implements OnInit{
 	// Função chama o serviço de API ---> AccountDataModel
 	getAccountData() {
 		this.service.getCard().subscribe(data => {
-			this.accountData.name = data.name
+			this.accountData.name = data.name;
+			this.accountData.account.agency = data.account.agency;
+			this.accountData.card.limit = data.card.limit;
+			this.accountData.account.number = data.account.number;
+			this.accountData.card.number = data.card.number.split(" ")[3]
 		})
 	}
 }
