@@ -17,3 +17,7 @@ ou
 ----- ng generate componentes pages/home
 ou
 ----- ng g c pages/home
+
+// Adicionando o bootstrap ao projeto pelo terminal
+----- ng add bootstrap
+

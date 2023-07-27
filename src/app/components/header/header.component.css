@@ -40,6 +40,8 @@ header {
 	background-color: transparent;
 	z-index: 3;
 }
+
+/* Minhas alterações */
 #search-box-input {
 	width: 650px;
 	height: 40px;
