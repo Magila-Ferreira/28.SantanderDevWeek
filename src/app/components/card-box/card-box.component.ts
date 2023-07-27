@@ -1,12 +1,19 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { AccountDataModel } from 'src/app/model/accountDataModel';
+import { CardsService } from 'src/app/services/cards.service';
 
 @Component({
   selector: 'app-card-box',
   templateUrl: './card-box.component.html',
   styleUrls: ['./card-box.component.css']
 })
-export class CardBoxComponent {
+export class CardBoxComponent implements OnInit{
+
+
+	constructor(private service: CardsService) {
+
+	}
+
 	accountData: AccountDataModel = {
 		name: "Cliente",
 		account: {
@@ -17,5 +24,17 @@ export class CardBoxComponent {
 			limit: 0,
 			number: "0000"
 		}
+	}
+	/* Função executada toda vez que o componente card-box for iniciado ("nascer na página") ---> gancho */
+	ngOnInit(): void {
+		// Chama os dados da API AccountData
+		this.getAccountData();
+	}
+
+	// Função chama o serviço de API ---> AccountDataModel
+	getAccountData() {
+		this.service.getCard().subscribe(data => {
+			this.accountData.name = data.name
+		})
 	}
 }

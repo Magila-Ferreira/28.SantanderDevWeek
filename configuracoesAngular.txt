@@ -21,3 +21,8 @@ ou
 // Adicionando o bootstrap ao projeto pelo terminal
 ----- ng add bootstrap
 
+// Criar uma pasta de serviços dentro da pasta app
+----- exemplo: app/services
+
+// Criação do serviço de atualização dos dados do usuário, consumidos a partir da API
+----- ng g service <nomeDaPastaDeServiços/nomeDoArquivoDeServiço>
