@@ -3,7 +3,7 @@
 <h1 align="center">
 	Projeto final: Mágila Morgana
 </h1><br>
-<br><img src="/src/assets/santander.png"/><br><br>
+<img src="/src/assets/santander.png"/><br><br>
 
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/101415619-1b103500-389d-11eb-83f8-74f87abf5eaf.png">
