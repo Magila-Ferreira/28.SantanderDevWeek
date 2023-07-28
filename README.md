@@ -1,7 +1,6 @@
-<!-- Projeto final: Mágila Morgana -->
 <h1 align="center">
-	<img src="/src/assets/santander.png"/><br>
 	Projeto final: Mágila Morgana
+	<img src="/src/assets/santander.png"/><br>
 </h1>
 <div align="center">
 
