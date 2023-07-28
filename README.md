@@ -2,8 +2,8 @@
 
 <h1 align="center">
 	Projeto final: Mágila Morgana
-	<br><img src="/src/assets/santander.png"/><br><br>
 </h1><br>
+<br><img src="/src/assets/santander.png"/><br><br>
 
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/101415619-1b103500-389d-11eb-83f8-74f87abf5eaf.png">
@@ -32,7 +32,7 @@
       alt="GitHub license" 
       src="https://img.shields.io/github/license/felipeAguiarCode/angular-santander-home-clone?color=E31918"
     >
-  </p> 
+  </p>
 
 <div align="center">
   	<a href="#">
@@ -65,13 +65,14 @@
 </div>
 
 ## Features
+
 - [x] Fully Component With Angular
 
 ## Technologies & Techniques
 
 This project was developed with the following technologies:
--   [Angular](https://angular.io)
 
+- [Angular](https://angular.io)
 
 ## Building
 
@@ -99,9 +100,10 @@ $ ng serve
 
 🌐 4. Navigate to
 
-```bash 
+```bash
  http://localhost:4200/
 ```
+
 Runs the app in the development mode.<br/>
 
 ## Autor
