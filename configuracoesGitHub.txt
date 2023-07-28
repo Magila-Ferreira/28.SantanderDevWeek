@@ -19,3 +19,30 @@
 6. Subir o repositório local para o repositório Git
   CMD - git push -u origin master/main
   VScode - menu de controle do código fonte -> clicar em push to
+
+// Adicionando alterações via terminal
+|-------------------------------------------------|
+|					git add .																|
+|					git commit -m "mensagemCommit"					|
+|					git push																|
+|-------------------------------------------------|
+
+// Forma automatizada de fazer deploy de projetos Ângular no GitHub:
+https://youtu.be/PbgVbCb3zuE
+
+// 1. No terminal:
+----- ng add angular-cli-ghpages
+
+// 2. Alterar o arquivo criado angular.json
+----- nas Configurações "deploy": {
+	"options": {
+		//----- Adicionar aqui dentro
+		"baseHref": "/nomeDoRepositórioNoGitHub/"
+	}
+}
+
+// 3. No terminal, rodar o arquivo alterado:
+----- ng deploy
+
+// 4. No repositório GitHub, selecionar menu GitHub Pages:
+----- Alterar a ramificação, de master ou main para gh-pages e configurar pasta como /root
