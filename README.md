@@ -1,3 +1,8 @@
+<!-- Projeto final: Mágila Morgana -->
+<h1 align="center">
+	<img src="src/assets/#santander.png"/><br>
+	Projeto final: Mágila Morgana
+</h1>
 <div align="center">
 
 <h1 align="center">
