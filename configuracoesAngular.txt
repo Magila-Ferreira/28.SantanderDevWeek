@@ -25,4 +25,4 @@ ou
 ----- exemplo: app/services
 
 // Criação do serviço de atualização dos dados do usuário, consumidos a partir da API
------ ng g service <nomeDaPastaDeServiços/nomeDoArquivoDeServiço>
+----- ng g s <nomeDaPastaDeServiços/nomeDoArquivoDeServiço>
